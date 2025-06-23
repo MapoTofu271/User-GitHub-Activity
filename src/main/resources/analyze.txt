@@ -1,0 +1,19 @@
+CLI to fetch recent activity of a GitHub user
+    What is "recent"?
+    Display it in terminal
+    Need to run from command line:
+
+        github-activity <username>
+
+    Output:
+          - Pushed 3 commits to kamranahmedse/developer-roadmap
+          - Opened a new issue in kamranahmedse/developer-roadmap
+          - Starred kamranahmedse/developer-roadmap
+        ----> In a period of time, we fetch data and process data into
+            - Pushed + quantity  + "commits" + to whom
+            - Opened + quantity  + "issue"  + to whom
+            - Starred + people
+
+
+ABOUT GITHUB user activity
+    /users/{username}/events
