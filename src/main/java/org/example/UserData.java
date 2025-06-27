@@ -2,10 +2,11 @@ package org.example;
 
 import org.json.JSONObject;
 
+import java.util.HashMap;
+
 public class UserData {
     private long id;
     private String type;
-
     private Repo repo;
 
     public void setType(String type) {
@@ -28,4 +29,5 @@ public class UserData {
     public void setId(long id) {
         this.id = id;
     }
+
 }
